@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../CSS/FullCalendarDemo.css" rel="stylesheet" />
+    <link href="../CSS/jquery-ui.css" rel="stylesheet" />
+    <link href="../CSS/maincontent.css" rel="stylesheet" />
+    <link href="../CSS/mainstructure.css" rel="stylesheet" />
+    <link href="../CSS/theme.css" rel="stylesheet" />
+    <link href="../CSS/fullcalendar.css" rel="stylesheet" />
+    <link href="../CSS/fullcalendar.print.css" rel="stylesheet" />
+    <link href="../CSS/jquery-ui-timepicker-addon.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-1.8.2.min.js"></script>
+    <script src="../Scripts/jquery-ui.min1.9.1.js"></script>
+    <script src="../Scripts/jquery-ui-sliderAccess.js"></script>
+    <script src="../Scripts/jquery-ui-timepicker-addon.js"></script>
+    <script src="../Scripts/datepicker-zh.js"></script>
+    <script src="../Scripts/fullcalendar.js"></script>
+    <script src="../Scripts/FullCalendarDemo.js"></script>
+    <title>hello</title>
+</head>
+<body>
+    <div id="wrap">
+        <div id='calendar'>
+        </div>
+        <div id="reserveinfo" title="Details">
+            <div id="revtitle">
+            </div>
+            <div id="revdesc">
+            </div>
+        </div>
+        <div style="display: none" id="reservebox" title="任务安排 ">
+            <form id="reserveformID" method="post">
+                <div class="sysdesc">
+                    &nbsp;
+                </div>
+                <div class="rowElem">
+                    <label>
+                        标题:
+                    </label>
+                    <input id="title" name="start" />
+                </div>
+                <div class="rowElem">
+                    <label>
+                        任务类型:
+                    </label>
+                    <input id="chengdu" name="start" />
+                </div>
+                <div class="rowElem">
+                    <label>
+                        开始时间:
+                    </label>
+                    <input id="start" name="start" />
+                </div>
+                <div class="rowElem">
+                    <label>
+                        结束时间:
+                    </label>
+                    <input id="end" name="end" />
+                </div>
+                <div class="rowElem">
+                    <label>指派人：</label>
+                    <input id="zhipairen" name="zhipairen" />
+                </div>
+                <div class="rowElem">
+                    <label>
+                        内容:
+                    </label>
+                    <textarea id="details" rows="3" cols="43" name="details"></textarea>
+                </div>
+                <div class="rowElem">
+                </div>
+                <div class="rowElem">
+                </div>
+                <div id="addhelper" class="ui-widget">
+                    <div style="padding-bottom: 5px; padding-left: 5px; padding-right: 5px; padding-top: 5px"
+                         class="ui-state-error ui-corner-all">
+                        <div id="addresult">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
